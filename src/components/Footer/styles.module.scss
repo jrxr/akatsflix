@@ -1,0 +1,25 @@
+.footerContainer {
+  height: 5rem;
+  border-bottom: 1px solid var(--red-900);
+  background-image: linear-gradient(to right, 
+  var(--red-300), 
+  var(--red-900));
+}
+
+.footerContent {
+  max-width: 1120px;
+  height: 5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    margin-left: 0.5rem;
+    font-family: Roboto;
+    font-size: 1rem;
+    color: var(--gray-300);
+  }
+}
